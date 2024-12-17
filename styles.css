@@ -146,18 +146,22 @@ ul {
     background-color: #F3F6F9;
 }
 .outer-col-section2 {
-    border: 2px solid purphow to create gaps between tags IN a flex-item le;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .inner-col-section2 {
     flex-basis: 40%;
     padding: 35px 20px;
     align-self: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 300px;
+    max-width: 250px;
 
 }
 .image-wrapper {
-    flex-basis: 70%;
+    flex-basis: 50%;
     flex-grow: 0;
     flex-shrink: 1;
     padding: 50px 30px;
