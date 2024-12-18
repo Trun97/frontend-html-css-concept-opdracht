@@ -141,61 +141,22 @@
         <form>
             <h2 id="Contact-Us">Let's work together</h2>
             <p>Have a question? Need a quote? Let us know!</p>
-            <fieldset>
-                <label>
-                    <input/>
-                </label>
-                <label>
-                    <input/>
-                </label>
-                <label>
-                    <input/>
-                </label>
-            </fieldset>
+            <div class="fieldset">
+                <label for="name">Name</label>
+                <input type="text" id="name-field" name="fullname" placeholder="Name" class="input-tag">
+                <label for="email">Email</label>
+                <input type="email" id="email-adres" name="mail" placeholder="Email" class="input-tag">
+                <label for="Message">Message</label>
+                <textarea name="message" id="message-field" cols="60" rows="10" placeholder="Message"></textarea>
+            </div>
+            <button type="button" class="button-form">send</button>
         </form>
     </section>
 </main>
 <!-- F O O T E R-->
-<footer>Business website opdracht © NOVI Hogeschool 2022</footer>
+<footer>
+    <div>Business website opdracht © NOVI Hogeschool 2022</div>
+</footer>
 </body>
 </html>
 
-<!--<form onsubmit="hier-hebben-we-javascript-voor-nodig">-->
-<!--    <fieldset>-->
-<!--        <legend>Gegevens</legend>-->
-<!--        <label for="name">Naam:</label>-->
-<!--        <input type="tekst" id="name-field" name="fullname"/>-->
-<!--        <label for="email">Email:</label>-->
-<!--        <input type="email" id="email-adres name=" mail"/>-->
-<!--    </fieldset>-->
-<!--    <fieldset>-->
-<!--        <legend>Jouw review</legend>-->
-<!--        <p> Hoe heb je dit artikel gevonden?</p>-->
-<!--        <select>-->
-<!--            <option value="Anders">Anders</option>-->
-<!--        </select>-->
-<!--        <p>Zou je nog meer van dit soort artikelen willen zien?</p>-->
-<!--        <label for="more-articles-radio">-->
-<!--            <input type="radio" id="more-articles-radio" value="Nee" name="type"/>Nee-->
-<!--        </label>-->
-<!--        <label for="less-articles">-->
-<!--            <input type="radio" id="less-articles" value="Ja" name="type">Ja-->
-<!--        </label>-->
-<!--        <label for="maybe-articles">-->
-<!--            <input type="radio" id="maybe-articles" value="Misschien" name="type">Misschien-->
-<!--        </label>-->
-<!--        <br>-->
-<!--        <br>-->
-
-<!--        <label for="message-field">Opmerkingen</label>-->
-<!--        <br>-->
-<!--        <textarea name="message" id="message-field" cols="90 rows=30"-->
-<!--                  placeholder="Wat vond je van dit artikel?"></textarea>-->
-<!--        <br>-->
-<!--        <label for="nieuwsbrief">-->
-<!--            <input type="checkbox" id="nieuwsbrief-field" name="nieuwsbrief"/>Schrijf me in voor de nieuwsbrief-->
-<!--        </label>-->
-<!--    </fieldset>-->
-<!--    <br>-->
-<!--    <button>Versturen</button>-->
-<!--</form>-->
